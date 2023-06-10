@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 300px;
+    height: 360px;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px;
+    margin: 30px;
+}
+.card .img img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.card .details{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card .details p{
+    display: inline-block;
+}
+.card .details span{
+    font-weight: bold;
+}
